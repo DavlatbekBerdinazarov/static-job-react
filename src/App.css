@@ -1,0 +1,141 @@
+header {
+  width: 100vw;
+  height: 120px;
+  background-color: mediumaquamarine;
+  position: fixed;
+  top: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 30px auto;
+}
+
+.job-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 28px 29px;
+  margin: 10px 0;
+  border-radius: 3px;
+  box-shadow: 2px 4px 8px 1px rgba(28, 134, 215, 0.2);
+}
+
+.dev-info{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.dev-info img{
+  width: 90px;
+  border-radius: 50%;
+
+}
+
+.contents{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+
+/* skills */
+
+.skills{
+  display: flex;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+.btn{
+  padding: 4px 6px;
+  background-color: rgb(239,246,246);
+  border: none;
+  padding:7px 10px;
+  border-radius: 3px;
+  font-weight: 700;
+  color: rgb(97,168,163);
+  font-size: 16px;
+}
+
+.filtered-btn{
+  display: flex;
+  align-items: center;
+}
+
+.close{
+
+  border: none;
+  cursor: pointer;
+  color: rgb(239,246,246);
+  background-color: rgb(97,168,163);
+}
+
+.close i {
+  color: white;
+  font-size: 18px;
+  padding: 4px 6px;
+}
+.close:hover {
+  background-color: black;
+}
+
+.skills button:hover{
+  cursor: pointer;
+  color: rgb(239,246,246);
+  background-color: rgb(97,168,163);
+
+}
+
+
+.company-name {
+  color: rgb(97,168,163);
+  font-weight: 700;
+}
+
+.new-badge{
+  background-color: rgb(97,168,163);
+  color: white;
+  padding: 6px 13px;
+  border-radius: 15px;
+  margin: 2px 6px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.fetured{
+  background-color: black;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 15px;
+  margin: 2px 6px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.dates{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(128,133,132);
+  font-size: 16px;
+}
+
+.divider{
+  width: 100%;
+  height: 120px;
+}
+
+
+.fiter{
+  position: relative;
+  top: -50px;
+  background-color: white;
+  padding: 28px 29px;
+  margin: 10px 0;
+  border-radius: 3px;
+  box-shadow: 2px 4px 8px 1px rgba(28, 134, 215, 0.2);
+}
+
+/* /skills */
